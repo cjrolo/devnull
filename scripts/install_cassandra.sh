@@ -1,5 +1,6 @@
 #!/bin/bash
-# Cassandra install script
+# TESTED ON CENTOS 6, 7
+# Cassandra install script 
 yum -y install epel-release
 yum -y update
 yum -y install ntp ntp-data ntp-doc wget vim curl htop
